@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0267C1;
+    
+}
+
+.container{
+    background: linear-gradient(90deg, rgba(4,182,196,1) 0%, rgba(25,163,241,1) 0%, rgba(2,255,248,1) 100%);
+    padding: 2rem;
+    padding-bottom: 1rem;
+    border: 2px solid rgb(35, 184, 184);
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.container h2{
+
+    color:#141414;
+    font-weight: 900;
+    width: 100%;
+}
+
+.myform{
+    width: 100%;
+    margin: 2rem 0 0 0;
+}
+   
+
+.userInput p{
+    font-size: 1.1rem;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: .25rem;
+}
+
+#textbox{
+    height: 1.5rem;
+    width: 100%;
+    font-size: .8rem;
+    border: none;
+    padding: 0.125rem 0 0.125rem 0;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: 4px;
+    padding-left: 0.2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 6px 1px;
+    
+}
+#textbox:hover{
+    border: none;
+}
+
+.convertor{
+    display: flex;
+    margin: 1.5rem .5rem 1.5rem .5rem ;
+    align-items:center;
+    justify-content:space-between;
+    height: 100%;
+}
+
+.convertor p{
+    font-size: 1rem;
+    color:#141414;
+    font-weight: 600;
+    padding-left: 2px;
+}
+
+.drop-down{
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid rgb(5, 184, 255);
+    background-color: aliceblue;
+    padding: .2rem .5rem;
+    border-radius: 10%;
+    margin-top: .125rem;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 1px 12px;
+   
+}
+
+img{
+    height: 2rem;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+select{
+    
+    border: none;
+    background-color:rgb(255, 255, 255);
+    font-family:'Segoe UI', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+option{
+    font-family: inherit;
+}
+
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.submit p{
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: auto;
+    max-width: 300px;
+ 
+}
+
+.gERate{
+    height: 8vh;
+    padding: 0 5px; 
+    width: 13rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(4,182,196,1) 0%, rgba(246,209,22,1) 0%, rgba(255,201,0,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 1px 12px;
+}
+
+.gERate:hover{
+    cursor:pointer;
+    background: linear-gradient(90deg, rgba(4,182,196,1) 0%, rgb(209, 177, 18) 0%, rgb(216, 176, 0) 100%);
+}
+
+.arrow{
+    margin: 1.5rem 1rem 0rem 1rem;
+}
