@@ -18,6 +18,8 @@ let exchangeRateButton = document.querySelector(".gERate");
 let fromCountryCode = "USD";
 let toCountryCode = "PKR";
 
+let toPath = document.querySelector(".to").querySelector("select");
+let fromPath = document.querySelector(".from").querySelector("select");
 
 
 
@@ -85,14 +87,23 @@ const updateExchangeRate = async ()=>{
 }
 
 const finder = ()=>{
-   let fromPath = document.querySelector(".from").querySelector("select");
+   
    fromCountryCode = fromPath.value;
 
-   let toPath = document.querySelector(".to").querySelector("select");
+
    toCountryCode = toPath.value;
    
 }
 
 window.addEventListener("load" , ()=>{
+   updateExchangeRate();
+})
+
+document.querySelector("#switch").addEventListener("click" , ()=>{
+   temp = fromPath.value;
+   fromPath.value = toPath.value;
+   toPath.value = temp;
+   updateFlag(document.querySelector(".from select"));
+   updateFlag(document.querySelector(".to select"));
    updateExchangeRate();
 })
