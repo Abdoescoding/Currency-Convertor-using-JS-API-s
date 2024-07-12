@@ -151,6 +151,17 @@ option{
     background: linear-gradient(90deg, rgba(4,182,196,1) 0%, rgb(209, 177, 18) 0%, rgb(216, 176, 0) 100%);
 }
 
-.arrow{
-    margin: 1.5rem 1rem 0rem 1rem;
+
+#switch{
+    height: 2rem;
+    width: 1.5rem;
+    margin: 1.3rem .8rem 0rem .8rem;
+    border: none;
+    background: none;
+    
+}
+
+#switch:hover{
+    cursor: pointer;
+    scale: 1.5;
 }
